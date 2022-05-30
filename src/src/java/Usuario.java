@@ -2,16 +2,16 @@ package java;
 
 public class Usuario {
     int id;
-    String name;
+    String username;
     String pass;
     String email;
 
     public Usuario() {
     }
 
-    public Usuario(int id, String name, String pass, String email) {
+    public Usuario(int id, String username, String pass, String email) {
         this.id = id;
-        this.name = name;
+        this.username = username;
         this.pass = pass;
         this.email = email;
     }
@@ -24,12 +24,12 @@ public class Usuario {
         this.id = id;
     }
 
-    public String getName() {
-        return name;
+    public String getusername() {
+        return username;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setusername(String username) {
+        this.username = username;
     }
 
     public String getPass() {
@@ -52,7 +52,7 @@ public class Usuario {
     public String toString() {
         return "Usuario{" +
                 "id=" + id +
-                ", name='" + name + '\'' +
+                ", username='" + username + '\'' +
                 ", pass='" + pass + '\'' +
                 ", email='" + email + '\'' +
                 '}';
