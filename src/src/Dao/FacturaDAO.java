@@ -1,7 +1,6 @@
-package java;
+package Dao;
 
 import java.util.List;
-import java.Factura;
 
 public interface FacturaDAO {
     public boolean registrar(Factura Factura);

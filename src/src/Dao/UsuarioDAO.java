@@ -1,6 +1,5 @@
-package java;
+package Dao;
 import java.util.List;
-import java.Usuario;
 
 public interface UsuarioDAO {
     public boolean registrar(Usuario Usuario);
