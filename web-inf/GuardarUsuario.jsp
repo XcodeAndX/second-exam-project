@@ -1,4 +1,4 @@
-<%@ page import="Dao.Usuario" %>
+<%@ page import="src.Dao.Usuario" %>
 <%@ page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <%
